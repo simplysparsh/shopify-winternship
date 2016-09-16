@@ -15,7 +15,6 @@ class CostCalculator
       total_cost += get_cost_per_page(page_num)
       page_num += 1
     end
-
     total_cost.round(2)
   end
 
@@ -54,7 +53,7 @@ calculator = CostCalculator.new
 total_cost = calculator.get_total_cost
 
 puts "************************"
-puts "Total Cost of all clocks and watches: #{total_cost}"
+puts "Total Cost of all clocks and watches: $#{total_cost}"
 puts "************************"
 
 
