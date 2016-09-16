@@ -17,7 +17,7 @@ You can install the required Ruby gems easily using bundler:
 gem install bundler
 ```
 
-2. Move over to the project directory using `cd` command and run the following:
+2 . Move over to the project directory using `cd` command and run the following:
 ```console
 bundle install
 ```
