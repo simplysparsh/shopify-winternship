@@ -3,11 +3,10 @@ This project is a part of the Shopify Winternship 2017 application for the posit
 
 The task is to create a program that calculates how much it will cost to buy all the clocks and watches in the store, [Shopicruit](http://shopicruit.myshopify.com/).
 
+This is built on Ruby 2.2.3. I have used the gem [`httparty`](https://github.com/jnunemaker/httparty) to parse through the json pages.
+
 The endpoint for Shopicruit's products can be found at: [shopicruit.myshopify.com/products.json?page=1](shopicruit.myshopify.com/products.json?page=1). Although this is just page 1, the data for all the clocks and watches is spread across multiple pages.
 
-## Development
-
-This is built on Ruby 2.2.3. I have used the gem [`httparty`](https://github.com/jnunemaker/httparty) to parse through the json pages.
 
 ## Installation and Usage
 
@@ -33,6 +32,7 @@ Once the gems have been installed successfully, you can run the program by passi
 ```console
 ruby cost_calculator.rb
 ```
+
 
 ## Output
 
