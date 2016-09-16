@@ -12,7 +12,7 @@ The endpoint for Shopicruit's products can be found at: [shopicruit.myshopify.co
 
 You can install the required Ruby gems easily using bundler:
 
-1. Install Bundler by using the following command in the terminal.
+1 . Install Bundler by using the following command in the terminal.
 ```console
 gem install bundler
 ```
